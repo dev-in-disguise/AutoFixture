@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Common.props"/>
+  
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle>AutoFixture.TUnit</AssemblyTitle>
+    <AssemblyName>AutoFixture.TUnit</AssemblyName>
+    <RootNamespace>AutoFixture.TUnit</RootNamespace>
+    <Copyright>Copyright © Ploeh 2011</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoFixture\AutoFixture.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TUnit.Core" Version="0.2.131" />
+  </ItemGroup>
+</Project>
